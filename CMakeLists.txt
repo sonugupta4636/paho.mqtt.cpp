@@ -59,7 +59,7 @@ endif()
 
 set(PAHO_BUILD_SAMPLES FALSE CACHE BOOL "Build sample programs")
 set(PAHO_BUILD_DOCUMENTATION FALSE CACHE BOOL "Create and install the API documentation (requires Doxygen)")
-set(PAHO_MQTT_C_PATH "" CACHE PATH "Add a path to paho.mqtt.c library and headers")
+set(PAHO_MQTT_C_PATH "../../paho.mqtt.c" CACHE PATH "Add a path to paho.mqtt.c library and headers")
 
 set(PAHO_MQTT_C paho-mqtt3a)
 
